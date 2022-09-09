@@ -1,0 +1,55 @@
+html {
+    background-image: linear-gradient(to top,#ba9fd7, #97D2EC);
+  }
+
+h1{
+    color: #E7F6F2;
+    text-align: center;
+}
+h2{
+    color: #E7F6F2;
+    font-family: serif;
+    text-align: center;
+}
+h3{
+    color: #E7F6F2;
+    
+    
+}
+h4{
+    color: #E7F6F2;
+    
+}
+
+
+
+.Abdu{
+    color: hwb(164 91% 4%);
+    font-family: Arial, Helvetica, sans-serif;
+   
+    width: 70%;
+    margin: auto;
+    border: 5px #781D42 solid;
+    border-radius: 40px ;
+    border-style: double; 
+    padding: 10px;
+}
+
+
+.Ayah{
+	color: #E7F6F2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width:70%;
+    margin: auto;
+    border: 5px #781D42 solid;
+    border-radius: 40px;
+    border-style: double; 
+    padding: 5px;
+}
+
+.copyr{
+
+    color: #000000;
+
+}
