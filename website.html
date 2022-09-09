@@ -40,7 +40,7 @@
         <div class="column">
               
             <p>Hello everyone!! My name is Ayah Almheiri and this is my pet Milo who is a Scottish Fold :D. I am Currently a fourth year undergrad student studying computer science.</center><br>
-            Things I love</p>
+            <br>Things I love</p>
             <ol>
                 <li>Cats</li>
                 <li>Gaming</li>
@@ -52,27 +52,27 @@
       </div>
 </div>
 
-<h2>Contact Us!</h2>
+<h2 class ="contact">Contact Us!</h2>
 <center> <img src="Mail.png" alt="Mail" height="80px">  </center> <br>
-<div class="Profiles">
-    <form action="website.html" method="POST">
+<div class="form">
+    <form  action="website.html" method="POST">
 
             <label>Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name!"><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name!" required><br><br>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email!"><br>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="20" rows="6" placeholder="Enter your message!"></textarea><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email!" required><br><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message!" required></textarea><br><br>
             <label for="confirm"> Do you like our Website?</label>
-            <select name="confirm">
+            <select name="confirm" required>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select><br>
             <label for="checkbox"> Do you like our Website?</label>
-            <input type="checkbox" name="checkbox"><br>
-            <input type="submit" value="Submit">
+            <input type="checkbox" name="checkbox"><br><br>
+            <center><input type="submit" value="Submit"></center>
     </form>
-</div>
+</div><br>
 
 
 </body>
