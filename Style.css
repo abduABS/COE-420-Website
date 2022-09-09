@@ -33,6 +33,8 @@ h4{
     border: 5px #781D42 solid;
     border-radius: 40px ;
     border-style: double; 
+    fill: grey;
+    fill-opacity: 50%;
     padding: 10px;
 }
 
