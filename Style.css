@@ -85,13 +85,20 @@ ol{
     color: hwb(164 91% 4%);
     font-family: Arial, Helvetica, sans-serif;
    
-    width: 70%;
+    width: 50%;
     margin: auto;
     border: 5px #ffffff solid;
     border-radius: 40px ;
     border-style: solid; 
     background-color: rgba(83, 83, 83, 0.5);
     padding: 30px;
+}
+
+.card-img-top{
+    width: 550px;
+    height: 500px;
+    border-radius: 20%;
+    
 }
 .copyr{
 
