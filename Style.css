@@ -92,13 +92,13 @@ ol{
     border-style: solid; 
     background-color: rgba(83, 83, 83, 0.5);
     padding: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .card-img-top{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
     
 }
