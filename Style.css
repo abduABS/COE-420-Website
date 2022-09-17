@@ -79,7 +79,7 @@ ol{
     border-radius: 40px ;
     border-style: solid; 
     background-color: rgba(83, 83, 83, 0.5);
-    padding: 30px;
+    padding: 20px;
 }
 
 .all-cards{
@@ -91,17 +91,27 @@ ol{
 .card{
     color: hwb(164 91% 4%);
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
     
     width: 30%;
+=======
+    align-items: center;
+    width: 35%;
+>>>>>>> 5706740ce1fe19f1fc9fb3bc570de8ff05383df9
     margin: auto;
     border: 5px #ffffff solid;
     border-radius: 40px ;
     border-style: solid; 
     background-color: rgba(83, 83, 83, 0.5);
     padding: 20px;
+<<<<<<< HEAD
 
     
   
+=======
+    padding-left: 5px;
+    padding-right: 5px;
+>>>>>>> 5706740ce1fe19f1fc9fb3bc570de8ff05383df9
 }
 
 .card-img-top{
