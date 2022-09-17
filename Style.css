@@ -86,16 +86,15 @@ ol{
     display: flex;
     justify-content: center;
     margin: auto;
+    width: 85%;
+    
 
 }
 .card{
     color: hwb(164 91% 4%);
     font-family: Arial, Helvetica, sans-serif;
-    
-    width: 30%;
-
     align-items: center;
-    width: 35%;
+    width: 30%;
     margin: auto;
     border: 5px #ffffff solid;
     border-radius: 40px ;
