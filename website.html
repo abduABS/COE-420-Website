@@ -8,7 +8,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a76870e2c2.js" crossorigin="anonymous"></script>
-</head>
+  </head>
 <body>
 
 <nav class="navbar navbar-expand-lg bg-light">
@@ -25,11 +25,20 @@
         <li class="nav-item">
           <a class="nav-link" href="form.html">Form</a>
         </li>
+        <li class="ms-3 nav-item">
+          <button class="btn btn-primary" id="incsize">Increase font size</button>
+        </li>
+        <li class="ms-3 nav-item">
+          <button class="btn btn-primary" id="rstsize">Reset font size</button>
+        </li>
+        <li class="ms-3 nav-item">
+          <button class="btn btn-primary" id="chtype">Change font type</button>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
-<div class="alert alert-success alert-dismissible fade show" role="alert">
+<div class="alert alert-success alert-dismissible fade show" role="alert" id="weather">
   <strong>Alert!</strong> New cats added below!
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
@@ -62,15 +71,15 @@
 <br>
 
 <div class="all-cards">
-<div class="card">
-  <img src="flutter.png" class="card-img-top" alt="Flutter Logo">
-  <div class="card-body">
-    <h5 class="card-title">Flutter</h5>
-    <p class="card-text">I'm also interested in Flutter and mobile development!</p>
-    <a href="https://flutter.dev/" class="btn btn-outline-warning">Learn More</a>
-    
+  <div class="card">
+    <img src="flutter.png" class="card-img-top" alt="Flutter Logo">
+    <div class="card-body">
+      <h5 class="card-title">Flutter</h5>
+      <p class="card-text">I'm also interested in Flutter and mobile development!</p>
+      <a href="https://flutter.dev/" class="btn btn-outline-warning">Learn More</a>
+      
+    </div>
   </div>
-   </div>
   
   <div class="card">
     <img src="Linkedin.png" class="card-img-top" alt="Linkedin Logo" >
@@ -119,7 +128,7 @@
     
     
   </div>
-   </div>
+</div>
   <br>
   <div class="card">
     <img src="Moka.JPG" class="card-img-top" alt="Ayah's third cat" >
