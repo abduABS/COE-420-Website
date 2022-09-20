@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
     const userAction = async () => {
-        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=25.311&lon=55.489&units=metric&appid=db6c1ff7909afe98d34b65627ed19014');
+        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=25.2048&lon=55.2708&units=metric&appid=db6c1ff7909afe98d34b65627ed19014');
         const myJson = await response.json(); //extract JSON from the http response
         console.log(myJson)
         var a = "Today's weather is "+ myJson.weather[0].main+" with a temperature of "+myJson.main.temp+"C"
