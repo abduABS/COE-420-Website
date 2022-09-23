@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(to top,#ba9fd7, #97D2EC);
 }
 
-h1{
+h1 {
     color: darkslategray;
     text-align: center;
     font-family: sans-serif;
@@ -10,6 +10,7 @@ h1{
     font-size: 80px;
     margin-bottom: 10px;
 }
+
 h2{
     color: #E7F6F2;
     font-family: sans-serif;
@@ -20,10 +21,6 @@ h2{
 h3{
     color: #E7F6F2;
     font-size: x-large;
-    
-}
-h4{
-    color: #E7F6F2;
     
 }
 
