@@ -46,7 +46,7 @@ ol{
     float: left;
     width: 50%;
 }
-  
+
 
 .row:after {
     content: "";
@@ -57,7 +57,6 @@ ol{
 .Profiles{
     color: hwb(164 91% 4%);
     font-family: Arial, Helvetica, sans-serif;
-   
     width: 70%;
     margin: auto;
     border: 5px #ffffff solid;
