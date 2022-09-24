@@ -42,11 +42,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
             labelElements[i].style.fontSize = "x-large";
         }
 
+        var inputElements = document.getElementsByTagName("input");
+        for(var i = 0; i < inputElements.length; i++) {
+            inputElements[i].style.fontSize = "x-large";
+        }
+
         var aElements = document.getElementsByTagName("a");
         for(var i = 0; i < aElements.length; i++) {
             aElements[i].style.fontSize = "x-large";
         }
 
+        var optionElements = document.getElementsByTagName("option");
+        for(var i = 0; i < optionElements.length; i++) {
+            optionElements[i].style.fontSize = "x-large";
+        }
+
+        var textareaElements = document.getElementsByTagName("textarea");
+        for(var i = 0; i < textareaElements.length; i++) {
+            textareaElements[i].style.fontSize = "x-large";
+        }
     }
 
     document.getElementById('rstsize').addEventListener("click",rstsize);
@@ -84,6 +98,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
             olElements[i].style.fontSize = "16px";
         }
 
+        var inputElements = document.getElementsByTagName("input");
+        for(var i = 0; i < inputElements.length; i++) {
+            inputElements[i].style.fontSize = "medium";
+        }
+
         var labelElements = document.getElementsByTagName("label");
         for(var i = 0; i < labelElements.length; i++) {
             labelElements[i].style.fontSize = "medium";
@@ -92,6 +111,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var aElements = document.getElementsByTagName("a");
         for(var i = 0; i < aElements.length; i++) {
             aElements[i].style.fontSize = "medium";
+        }
+
+        var optionElements = document.getElementsByTagName("option");
+        for(var i = 0; i < optionElements.length; i++) {
+            optionElements[i].style.fontSize = "medium";
+        }
+
+        var textareaElements = document.getElementsByTagName("textarea");
+        for(var i = 0; i < textareaElements.length; i++) {
+            textareaElements[i].style.fontSize = "medium";
         }
     }
 
@@ -130,9 +159,29 @@ document.addEventListener("DOMContentLoaded", function(event) {
             olElements[i].style.fontFamily = "Comic Sans MS";
         }
 
+        var inputElements = document.getElementsByTagName("input");
+        for(var i = 0; i < inputElements.length; i++) {
+            inputElements[i].style.fontFamily = "Comic Sans MS";
+        }
+
+        var labelElements = document.getElementsByTagName("label");
+        for(var i = 0; i < labelElements.length; i++) {
+            labelElements[i].style.fontFamily = "Comic Sans MS";
+        }
+
         var aElements = document.getElementsByTagName("a");
         for(var i = 0; i < aElements.length; i++) {
             aElements[i].style.fontFamily = "Comic Sans MS";
+        }
+
+        var optionElements = document.getElementsByTagName("option");
+        for(var i = 0; i < optionElements.length; i++) {
+            optionElements[i].style.fontFamily = "Comic Sans MS";
+        }
+
+        var textareaElements = document.getElementsByTagName("textarea");
+        for(var i = 0; i < textareaElements.length; i++) {
+            textareaElements[i].style.fontFamily = "Comic Sans MS";
         }
     }
 
